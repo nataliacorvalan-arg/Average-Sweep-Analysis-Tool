@@ -2,7 +2,7 @@
 # Average Sweep Analysis Tool
 # Author: Natalia Andrea Corvalan
 # Version: 1.0.0
-# DOI = "xxxxx/zenodo.XXXXXXX"
+# DOI = "https://zenodo.org/records/18735615"
 # --------------------------------------------------------------------------------
 
 import os
@@ -205,4 +205,5 @@ if __name__ == "__main__":
         print(str(e))
     finally:
         input("\nPress Enter to exit...")
+
 
