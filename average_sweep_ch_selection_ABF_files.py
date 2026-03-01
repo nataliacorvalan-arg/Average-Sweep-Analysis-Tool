@@ -2,7 +2,7 @@
 # Average Sweep Analysis Tool
 # Author: Natalia Andrea Corvalan
 # Version: 1.0.0
-# DOI = "https://zenodo.org/records/18735615"
+# DOI = "10.5281/zenodo.18735575"
 # --------------------------------------------------------------------------------
 
 import os
@@ -23,8 +23,8 @@ from numpy.fft import fft, ifft, fftfreq
 SOFTWARE_NAME = "Average Sweep Analysis Tool: Automated Gaussian-Filtered Sweep Averaging from ABF Files [Computer software]"
 AUTHOR = "Natalia Andrea Corvalan"
 VERSION = "1.0.0"
-DOI = "xxxxx/zenodo.XXXXXXX"
-REPOSITORY_LINK = "https://dacytar.mincyt.gob.ar/"
+DOI = "10.5281/zenodo.18735575"
+REPOSITORY_LINK = "https://doi.org/10.5281/zenodo.18735574"
 
 
 def splash_screen():
@@ -205,5 +205,6 @@ if __name__ == "__main__":
         print(str(e))
     finally:
         input("\nPress Enter to exit...")
+
 
 
